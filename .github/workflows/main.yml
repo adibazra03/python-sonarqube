@@ -17,3 +17,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+             sonar.projectKey=adibazra03_python-sonarqube
+             sonar.organization=hazrul-adib-abdullah-azra
